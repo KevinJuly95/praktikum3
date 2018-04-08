@@ -10,11 +10,11 @@ package praktikum3;
  * @author ACER
  */
 public class kereta {
-    String jenis;
-    int kursi;
-    int gerbang;
-    int kecepatan;
-    String awak;
+    private String jenis;
+    private int kursi;
+    private int gerbang;
+    private int kecepatan;
+    private String awak;
      
     void cetakInfo () {
         System.out.println("jenis \t: "+jenis+"\n"+

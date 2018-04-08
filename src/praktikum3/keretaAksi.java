@@ -42,5 +42,25 @@ public class keretaAksi {
         sm.cetakInfo();
         System.out.println("Jenis :"+sm.getJenisKelas());
         sm.throttle();
+        
+        keretaapilevirasimagnetik a1 = new keretaapilevirasimagnetik ();
+        a1.setJenis("Maglev");
+        a1.setKursi(90);
+        a1.setGerbang(10);
+        a1.setKecepatan(600);
+        a1.setAwak("30");
+        a1.setJenisKelas("Bisnis");
+        a1.cetakInfo();
+        System.out.println("Jenis :"+a1.getJenisKelas());
+        
+        keretaapilistrik b2 = new keretaapilistrik ();
+        b2.setJenis("Shinkansen");
+        b2.setKursi(80);
+        b2.setGerbang(8);
+        b2.setKecepatan(300);
+        b2.setAwak("20");
+        b2.setJenisKelas("ekonomi");
+        b2.cetakInfo();
+        System.out.println("Jenis :"+b2.getJenisKelas());
 }
 }

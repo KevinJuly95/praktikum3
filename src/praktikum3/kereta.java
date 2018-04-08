@@ -16,4 +16,11 @@ public class kereta {
     int kecepatan;
     String awak;
      
+    void cetakInfo () {
+        System.out.println("jenis \t: "+jenis+"\n"+
+                "kursi \t: "+kursi+"\n"+
+                "gerbang \t: "+gerbang+"\n"+
+                "kecepatan \t: "+kecepatan+" km/j"+"\n"+
+                "awak \t: "+awak+"\n");
+    }
 }

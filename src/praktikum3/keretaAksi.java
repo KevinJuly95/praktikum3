@@ -21,5 +21,15 @@ public class keretaAksi {
         
         s.cetakInfo();
         
-    }
+        System.out.print("Jenisnya \t:");
+        System.out.println(s.getJenis());
+        System.out.print("Kursinya \t:");
+        System.out.println(s.getKursi());
+        System.out.print("Gerbangnya \t:");
+        System.out.println(s.getGerbang());
+        System.out.print("Kecepatanya \t:");
+        System.out.println(s.getKecepatan()+" km/j");
+        System.out.print("Awaknya \t:");
+        System.out.println(s.getAwak());
+}
 }

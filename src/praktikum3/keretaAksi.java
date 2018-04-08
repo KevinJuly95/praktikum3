@@ -18,7 +18,7 @@ public class keretaAksi {
         s.setGerbang(8);
         s.setKecepatan(120);
         s.setAwak("28");
-        
+       
         s.cetakInfo();
         
         System.out.print("Jenisnya \t:");
@@ -31,5 +31,16 @@ public class keretaAksi {
         System.out.println(s.getKecepatan()+" km/j");
         System.out.print("Awaknya \t:");
         System.out.println(s.getAwak());
+        
+        keretaapilokomotif sm = new keretaapilokomotif ();
+        sm.setJenis("Big Boy");
+        sm.setKursi(75);
+        sm.setGerbang(8);
+        sm.setKecepatan(100);
+        sm.setAwak("20");
+        sm.setJenisKelas("Ekonomi");
+        sm.cetakInfo();
+        System.out.println("Jenis :"+sm.getJenisKelas());
+        sm.throttle();
 }
 }

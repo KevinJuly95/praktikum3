@@ -10,5 +10,10 @@ package praktikum3;
  * @author ACER
  */
 public class kereta {
-    
+    String jenis;
+    int kursi;
+    int gerbang;
+    int kecepatan;
+    String awak;
+     
 }
